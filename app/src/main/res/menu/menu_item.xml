@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menu_gov_Id"
+        android:icon="@drawable/ic_work"
+        android:title="Government Job" />
+
+    <item
+        android:id="@+id/menu__non_gov_Id"
+        android:icon="@drawable/ic_non_gov"
+        android:title="Non Government Job"
+        />
+
+    <item
+        android:id="@+id/menu_company_Id"
+        android:icon="@drawable/ic_company"
+        android:title="Company Job"
+        />
+
+    <item
+        android:id="@+id/menu_accounting_Id"
+        android:icon="@drawable/ic_accounting"
+        android:title="Accounting Job"
+        />
+
+    <item
+        android:id="@+id/menu_marketing_Id"
+        android:icon="@drawable/ic_marketing"
+        android:title="Marketing Job"
+        />
+
+    <item
+        android:id="@+id/menu_walkInInterView_Id"
+        android:icon="@drawable/ic_walk_in_interview"
+        android:title="Walk-in-interview Job"
+        />
+
+    <item
+        android:id="@+id/menu_about_Id"
+        android:icon="@drawable/ic_about"
+        android:title="About Us"
+        />
+    <item
+        android:id="@+id/menu_admin_Id"
+        android:icon="@drawable/ic_about"
+        android:title="Admin Login"
+        />
+
+
+
+</menu>

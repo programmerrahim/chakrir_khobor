@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/product_sample_nameId"
+        android:text="Name"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/product_sample_priceId"
+        android:layout_below="@id/product_sample_nameId"
+        android:text="Price"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_blue_light"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/product_sample_lastDateId"
+            android:layout_below="@id/product_sample_priceId"
+            android:text="Price"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textColor="@android:color/holo_red_dark"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/product_sample_moreId"
+            android:layout_below="@id/product_sample_lastDateId"
+            android:layout_alignParentEnd="true"
+            android:text="@string/bistarito"
+            android:background="@drawable/round_round_button"
+            android:visibility="visible"
+            android:layout_marginBottom="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/ic_collapse"
+            android:layout_width="100dp"
+            android:layout_height="50dp"/>
+
+        <RelativeLayout
+            android:id="@+id/expandable_relative_layout"
+            android:visibility="visible"
+            android:layout_margin="0dp"
+            android:background="@drawable/background_relative_layout"
+            android:layout_below="@+id/product_sample_moreId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <TextView
+                android:id="@+id/product_sample_quantityId"
+                android:text="Pod songkha"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_blue_light"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/product_sample_descriptionId"
+                android:layout_below="@+id/product_sample_quantityId"
+                android:text=" Job Description"
+                android:textStyle="italic"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="22sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.github.chrisbanes.photoview.PhotoView
+                android:id="@+id/product_sample_image_jobId"
+                android:layout_below="@+id/product_sample_descriptionId"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="2dp"
+                android:padding="5dp"
+                android:src="@drawable/reply"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+
+            <TextView
+                android:id="@+id/product_sample_sourceId"
+                android:layout_below="@+id/product_sample_image_jobId"
+                android:text="Pod songkha"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/collapseId"
+                android:layout_below="@+id/product_sample_sourceId"
+                android:layout_alignParentEnd="true"
+                android:text="সংক্ষেপ"
+                android:background="@drawable/round_round_button"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_collapse"
+                android:layout_width="100dp"
+                android:layout_height="50dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

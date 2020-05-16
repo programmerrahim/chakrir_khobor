@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "349316873579",
+    "firebase_url": "https://chakrir-khobor-jokhon-tokhon.firebaseio.com",
+    "project_id": "chakrir-khobor-jokhon-tokhon",
+    "storage_bucket": "chakrir-khobor-jokhon-tokhon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349316873579:android:2cb4775074852b9eed602e",
+        "android_client_info": {
+          "package_name": "com.time.chakrirkhoborjokhontokhon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349316873579-0qlgj88vbjue6mldvv0ltoeoj49fr4u1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.time.chakrirkhoborjokhontokhon",
+            "certificate_hash": "e17f2a7f7dd7699f8a0371ca136709015cdd8215"
+          }
+        },
+        {
+          "client_id": "349316873579-alkupqipbnt13g08k87i5tirac0ffdei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA99Pb_RsZiwsweAAiL_0QBbawGMIVkZdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349316873579-alkupqipbnt13g08k87i5tirac0ffdei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

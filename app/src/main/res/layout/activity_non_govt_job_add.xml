@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NonGovtJobAddActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txt"
+            android:text="Add New Non-govt Job Item"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:id="@+id/txt1"
+            android:layout_below="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_margin="10dp"
+            android:background="@color/material_1"/>
+        <View
+            android:id="@+id/viewId"
+            android:layout_below="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/material_1"/>
+
+
+
+        <EditText
+            android:id="@+id/ngovtJobAddNameId"
+            android:layout_below="@id/viewId"
+            android:hint="Enter Job Title Name"
+            android:textColor="@android:color/black"
+            android:inputType="textMultiLine"
+            android:gravity="center"
+            android:textColorHint="@android:color/holo_orange_light"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/ngovtJobAddPriceId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ngovtJobAddNameId"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:hint="Enter First Date"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/holo_orange_light" />
+
+        <EditText
+            android:id="@+id/ngovtJobAddLastDateId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ngovtJobAddPriceId"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:hint="Last Date"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/holo_orange_light" />
+
+
+        <ImageView
+            android:id="@+id/ngovtJobAdd_imageId"
+            android:layout_below="@id/ngovtJobAddLastDateId"
+            android:cropToPadding="false"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground"
+            android:layout_centerHorizontal="true"
+            android:background="@color/background"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/ngovtJobAddQuantityid"
+            android:layout_below="@id/ngovtJobAdd_imageId"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:hint="Job Quantity..."
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textColorHint="@android:color/holo_orange_light"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/ngovtJobAddDescriptionId"
+            android:layout_below="@id/ngovtJobAddQuantityid"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="6dp"
+            android:padding="10dp"
+            android:hint="Job description..."
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textColorHint="@android:color/holo_orange_light"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/ngovtJobAddSourceId"
+            android:layout_below="@id/ngovtJobAddDescriptionId"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="6dp"
+            android:padding="10dp"
+            android:hint="Source..."
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:textColorHint="@android:color/holo_orange_light"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            android:id="@+id/ngovtJobAddButtonId"
+            android:layout_below="@id/ngovtJobAddSourceId"
+            android:text="Add"
+            android:textSize="26sp"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:background="@drawable/round_round_button"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="40dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
